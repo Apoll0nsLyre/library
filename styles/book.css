@@ -1,0 +1,47 @@
+.book{
+    background-color: white;
+    min-width: 25vw;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.book *{
+    margin: 5px 5px;
+}
+.book .book-author{
+    font-style: italic;
+    font-size: large;
+}
+
+button{
+    cursor: pointer;
+}
+.book .edit{
+    background-color: grey;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+.book .edit:hover{
+    background-color: rgb(0, 0, 0,0.7);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.book .delete{
+    background-color: rgb(255, 94, 94);
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+.book .delete:hover{
+    background-color:  rgb(146, 54, 54);
+    transition: background-color 0.3s ease-in-out;
+}
